@@ -1,0 +1,75 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+header {
+  background-color: #1e272e;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+nav {
+  margin-top: 0.5rem;
+}
+nav a {
+  margin: 0 1rem;
+  color: #dff9fb;
+  text-decoration: none;
+  font-weight: bold;
+}
+main {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+h2 {
+  margin-bottom: 1rem;
+  color: #2f3542;
+}
+.film-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+.film-card {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+.film-card:hover {
+  transform: scale(1.03);
+}
+.film-card img {
+  width: 100%;
+  height: auto;
+}
+.film-card h3 {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.film-card a {
+  display: block;
+  text-align: center;
+  padding: 0.5rem;
+  background: #1e90ff;
+  color: white;
+  text-decoration: none;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+footer {
+  background-color: #dcdde1;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
